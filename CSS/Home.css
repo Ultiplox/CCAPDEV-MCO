@@ -1,24 +1,30 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    }
-  
-header {
-position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    padding: 10px 10%;
-    width: 100%;
-    background-color: black;
-    border-bottom: 3px solid black;
-    z-index: 10;
 }
-  
+
+header {
+   
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(0,0,0,.90);
+    font-size: 20px;
+    width: 100%;
+}
+
 .logo {
-    height: 75px;
+    padding: 0px 50px;
     cursor: pointer;
 }
 
@@ -26,22 +32,50 @@ nav a {
     color: white;
     text-decoration: none;
 }
-  
-.nav_options li {
-    display: inline-block;
-    padding: 0px 20px;
-  
-    font-weight: bold;
-    list-style: none;
+
+.menu li {
+    display: inline;
+    padding: 50px 50px 10px 10px;
 }
-  
-.nav_options li a:hover {
+
+.menu a:hover {
     color: red;
 }
-  
-main {
+
+.buttons {
     display: flex;
-    background-color: black;
 }
-  
-  
+
+.search-icon {
+    background-image: url("../Media/Search.png");
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    background-image: url("../Media/SearchHover.png");
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.person-icon {
+    background-image: url("../Media/Account.png");
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.person-icon:hover {
+    background-image: url("../Media/AccountHover.png");
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+
