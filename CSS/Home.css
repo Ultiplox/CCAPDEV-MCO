@@ -154,16 +154,6 @@ nav a:hover,
     background-repeat: no-repeat;
 }
 
-/* Search icon */
-.search-icon {
-    background-image: url("../Media/Search.png");
-}
-
-/* Hover effect for the search icon */
-.search-icon:hover {
-    background-image: url("../Media/SearchHover.png");
-}
-
 /* Person icon */
 .person-icon {
     background-image: url("../Media/Account.png");
