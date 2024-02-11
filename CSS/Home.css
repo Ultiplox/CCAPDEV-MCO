@@ -235,7 +235,7 @@ footer {
 }
 
 /* Define flex proportions for the three pillars */
-.left_pillar {
+/* .left_pillar {
     flex: 25%;
 }
 
@@ -246,3 +246,40 @@ footer {
 .right_pillar {
     flex: 25%;
 }
+ */
+
+.layout{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section{
+    flex: 1;
+}
+
+.section h3{
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
